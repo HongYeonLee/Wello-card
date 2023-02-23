@@ -1,0 +1,78 @@
+.container {
+    width: 23rem; /* 너비 */
+    background-color: rgba(0, 0, 0, 0.5); /* 배경 색깔 */
+    border-radius: 0.5rem; /* 모서리 둥근 정도 */
+}
+body {
+    background-color: dodgerblue; /* 배경 색깔 */
+    color: white; /* 글자 색깔 */
+    font-weight: 300; /* 글자 굵기 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* 명함 박스 가운데 정렬 */
+}
+html {
+    width: 100%;
+    height: 100%;
+    /* html 명함 크기가 화면 전체를 꽉 채우기 */
+}
+.card-address {
+    font-size: 0.8rem; /* 글자 크기 */
+}
+hr {
+    border: solid 1px white; /* 선(종류, 굵기, 색깔) */
+}
+.name {
+    font-weight: 600; /* 글자 굵기 */
+    font-size: 1.4rem; /* 글자 크기 */
+}
+.job {
+    font-size: 0.9rem; /* 글자 크기 */
+}
+.profile-img-container {
+    width: 15rem; /* 사진 너비 조정 */
+    height: 15rem; /* 사진 높이 조절 */
+    border-radius: 70%; /* 사진 모서리 둥근 정도 */
+    overflow: hidden; /* 튀어나온 부분 정리 */
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    /* 비율 유지하면서 가득 채우기 */
+    object-fit: cover;
+}
+.contact {
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #ffe300; /* 카톡 아이콘 색깔 */
+    border-radius: 70%; /* 카톡 아이콘 둥근 정도 */
+    text-decoration: none; /* 링크 밑줄 없애기 */
+    color: black; /* 카톡 아이콘 글자 색 */
+    font-weight: 700; /* 글자 굵기 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introduction-container hr {
+    width: 15px; /* 사진과 소개 구분 선 길이 */
+}
+.introduction {
+    line-height: 1.5rem; /* 줄 간격 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tags {
+    font-size: 0.8rem; /* 태그 폰트 글자 크기 */
+    display: flex;
+    justify-content: space-between;
+}
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
